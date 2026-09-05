@@ -139,7 +139,3 @@ sudo ovs-ofctl dump-flows br0
 ![Guest isolation](screenshots/06-guest01-isolation.png)
 
 ![Management access policy](screenshots/07-admin01-management.png)
-
-## Важно
-
-Не добавляю в GitHub пароли, приватные SSH-ключи и настоящие секреты.
