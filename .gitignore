@@ -1,0 +1,8 @@
+# Do not publish private keys, passwords, or temporary captures.
+*.key
+*.pem
+id_*
+!.gitignore
+.env
+secrets/
+*.pcap

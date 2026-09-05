@@ -1,0 +1,12 @@
+[Unit]
+Description=Configure Open vSwitch ports for the network lab
+Requires=openvswitch-switch.service
+After=openvswitch-switch.service network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/setup-ovs-lab.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
